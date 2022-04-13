@@ -10,4 +10,11 @@ public class MainTest {
         Assertions.assertArrayEquals(expected, Main.sort(input));
     }
 
+    @Test
+    public void testSort1Item() {
+        var expected = new double[]{1.9f};
+        var input = new double[]{1.9f};
+        Assertions.assertArrayEquals(expected, Main.sort(input));
+    }
+
 }
